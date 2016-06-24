@@ -288,7 +288,7 @@ public class Specs {
 		["%m.attribute of %m.spriteOrStage",	"r", 7, "getAttribute:of:"],
 		["-"],
 		["current %m.timeAndDate", 				"r", 7, "timeAndDate",			"minute"],
-		["days since 2000", 					"r", 7, "timestamp"],
+		["days since %n", 					"r", 7, "timestamp"],
 		["username",							"r", 7, "getUserName"],
 
 		// stage sensing
@@ -312,7 +312,7 @@ public class Specs {
 		["%m.attribute of %m.spriteOrStage",	"r", 107, "getAttribute:of:"],
 		["-"],
 		["current %m.timeAndDate", 				"r", 107, "timeAndDate",		"minute"],
-		["days since 2000", 					"r", 107, "timestamp"],
+		["days since %n", 					"r", 107, "timestamp"],
 		["username",							"r", 107, "getUserName"],
 
 		// operators
