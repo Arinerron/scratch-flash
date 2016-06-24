@@ -305,7 +305,7 @@ public class SensingPrims {
 
 	private function primTimestamp(b:Block):* {
 		const millisecondsPerDay:int = 24 * 60 * 60 * 1000;
-		const epoch:Date = new Date(2000, 0, 1); // Jan 1, 2000 (Note: Months are zero-based.)
+		const epoch:Date = new Date(interp.arg(b, 0), 0, 1); // Jan 1, 2000 (Note: Months are zero-based.)
 		var now:Date = new Date();
 		var dstAdjust:int = now.timezoneOffset - epoch.timezoneOffset;
 		var mSecsSinceEpoch:Number = now.time - epoch.time;
